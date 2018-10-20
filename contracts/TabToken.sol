@@ -420,7 +420,7 @@ contract TabToken is PausableToken, Lockable {
 
   address internal _etherAddress = 0x90CD914C827a12703D485E9E5fA69977E3ea866B;
 
-  //This is already exposed from BasicToken.sol as part of the standard
+  //This is already exposed from BasicToken.sol as part of the standard.
   uint256 internal constant INITIAL_SUPPLY = 22000000000000000000000000000;
 
   /**
